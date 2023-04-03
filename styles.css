@@ -1,4 +1,33 @@
-h1 {
-   
-
+body {
+    font-family: 'Courier New', Courier, monospace;
+ 
 }
+header {
+    background-color: #8fcaca ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;  
+    border-radius: 0em 1em 1em 1em;
+  }
+
+.article {
+    border:  1px solid;
+    margin:  20px auto;
+    padding: 20px;
+    border-radius: 0em 1em 1em 1em;
+
+  }
+p {
+    text-align: center;
+}
+.button__center {
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+
+
+  
