@@ -52,18 +52,18 @@ footer {
     cursor: pointer;
 }
    
-.home {
+.footer__home {
     background-color: #8fcaca;
     border: none;
-    cursor: pointer;
+    color: black;
 }
-.bookmark {
+.footer__bookmark {
     background-color: #8fcaca;
     border: none;
-    cursor: pointer;
+    color: black;
 }
-.profile {
+.footer__profile {
     background-color: #8fcaca;
     border: none;
-    cursor: pointer;
+    color: black;
 }
