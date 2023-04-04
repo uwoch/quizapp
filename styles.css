@@ -67,3 +67,26 @@ footer {
     border: none;
     color: black;
 }
+.profile__img {
+    width: 200px;
+    float: left;
+    border-radius: 0em 1em 1em 1em;
+    padding-right: 30px;
+}
+/*h2 {
+text-align: center; 
+padding-top: 80px;
+padding-left: 30px;
+}
+*/
+.user__profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: x-large;
+}
+.about {
+    text-align: left;
+    padding: 20px;
+}
