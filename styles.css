@@ -67,3 +67,6 @@ footer {
     border: none;
     cursor: pointer;
 }
+bookmark.selected {
+    background-color:black;
+}
