@@ -50,6 +50,7 @@ footer {
     top: -15px;
     background-color: white;
     cursor: pointer;
+    border: dotted 2px;
 }
    
 .home {
@@ -68,5 +69,6 @@ footer {
     cursor: pointer;
 }
 .selected {
-    border-color: rgb(215, 97, 114);
+    border-color: violet;
+    background-color: violet;
 }
