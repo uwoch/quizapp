@@ -1,4 +1,13 @@
-const toggleBookmark = document.querySelector('[data-js="toggle-bookmark"]');
-toggleBookmark.addEventListener("click", () => {
-    toggleBookmark.classList.toggle("selected");
+const toggleBookmark1 = document.querySelector('[data-js="toggle-bookmark-1"]');
+toggleBookmark1.addEventListener("click", () => {
+    toggleBookmark1.classList.toggle("selected");
 });
+const toggleBookmark2 = document.querySelector('[data-js="toggle-bookmark-2"]');
+toggleBookmark2.addEventListener("click", () => {
+    toggleBookmark2.classList.toggle("selected");
+});
+const toggleBookmark3 = document.querySelector('[data-js="toggle-bookmark-3"]');
+toggleBookmark3.addEventListener("click", () => {
+    toggleBookmark3.classList.toggle("selected");
+});
+const bodyElement = document.querySelector('[data-js="body"]');
