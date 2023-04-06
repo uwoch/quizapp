@@ -22,6 +22,7 @@ header {
 p {
     text-align: center;
 }
+
 .button__center {
     text-align: center;
     padding: 5px 15px 5px 15px;
@@ -42,14 +43,14 @@ footer {
     justify-content: space-around;
 
 }
-.article__bookmark{
+.article__bookmark {
     padding: 6px 6px;
     position: absolute;
     right: 10px;
     top: -15px;
     background-color: white;
-    border: none;
     cursor: pointer;
+    border: dotted 2px;
 }
    
 .footer__home {
@@ -89,4 +90,9 @@ padding-left: 30px;
 .about {
     text-align: left;
     padding: 20px;
+    cursor: pointer;
+}
+.selected {
+    border-color: violet;
+    background-color: violet;
 }
