@@ -12,49 +12,63 @@
         <h1>Quiz App</h1>
     </header>
 <main>
+     <!-- Question 1 Start -->
     <article name="question-box" class="article">
     <button class="article__bookmark" data-js="toggle-bookmark-1"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
             <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
           </svg></button>
-        <p>What property flips the axes in flexbox?
+        <p>Which property is used to change the direction of the axis in the flexbox?
         </p>
         <div class="button__center">
-            <button class="show__answer-button">Show Answer
+            <button onclick="show_hide(this)" class="quiz-button">Show Answer
             </button>
+            <p class="answer">
+                Adding the flex-direction property to the flex container allows us to change the direction in which our flex items display.
+            </p>
         </div>
         <button>#html</button>
         <button>#flexbox</button>
         <button>#css</button>
     </article>
-
+       <!-- Question 1 End -->
+       <!-- Question 2 Start -->
     <article  name="question-box" class="article">
         <button class="article__bookmark" data-js="toggle-bookmark-2"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
             <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
           </svg></button>
-          <p>How to change the color of a paragraph?
+          <p>What are the terms of flex-direction?
         </p>
         <div class="button__center">
-            <button class="show__answer-button">Show Answer
+            <button onclick="show_hide(this)" class="quiz-button">Show Answer
             </button>
+            <p class="answer">
+                Flex items have primarily horizontal rows or vertical columns. The four options for flex-direction are row, row-reverse, column, column reverse.
+            </p>
         </div>
         <button>#html</button>
         <button>#flexbox</button>
         <button>#css</button>
     </article>
+      <!-- Question 2 End -->
+        <!-- Question 3 Start -->
     <article name="question-box" class="article">
         <button class="article__bookmark" data-js="toggle-bookmark-3" class="active"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
             <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
           </svg></button>
-          <p>When will I be able to travel the world?
-        </p>
+          <p>What is the default flex-direction on the main axis?
+          </p>
         <div class="button__center">
-            <button class="show__answer-button">Show Answer
+            <button onclick="show_hide(this)" class="quiz-button">Show Answer
             </button>
+            <p class="answer">
+                The default value is row. Setting flex-direction to row or row-reverse sets the main axis along the row in the inline direction. 
+            </p>
         </div>
-        <button>#question</button>
-        <button>#meaningoflife</button>
-        <button>#wanderlust</button>
+        <button>#html</button>
+        <button>#flexbox</button>
+        <button>#css</button>
     </article>
+        <!-- Question 3 End -->
 </main>
     <footer>
     <nav class="footer">

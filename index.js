@@ -11,3 +11,20 @@ toggleBookmark3.addEventListener("click", () => {
     toggleBookmark3.classList.toggle("selected");
 });
 const bodyElement = document.querySelector('[data-js="body"]');
+
+function show_hide(element) {
+   var myAnswer = element.nextElementSibling;
+   var displaySetting = myAnswer.style.display;
+   var quizButton = element;
+
+   if(displaySetting=="inline-block"){
+       myAnswer.style.display = 'none';
+
+       quizButton.innerHTML = 'Show Answer';
+   }
+   else
+   {
+       myAnswer.style.display = 'inline-block';
+       quizButton.innerHTML = 'Hide Answer';
+   }
+}

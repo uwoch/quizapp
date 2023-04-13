@@ -28,6 +28,7 @@ p {
     padding: 5px 15px 5px 15px;
     margin-top: 5px;
     margin-bottom: 35px;
+ 
 }
 
 footer {
@@ -51,6 +52,10 @@ footer {
     background-color: white;
     cursor: pointer;
     border: dotted 2px;
+}
+
+.answer {
+  font-family: Arial, Helvetica, sans-serif;
 }
    
 .footer__home {
@@ -93,8 +98,9 @@ padding-left: 30px;
 
 }
 .selected {
-    border-color: violet;
-    background-color: violet;
+    background-color: gold;
+    border: dotted;
+  
 }
 .footer__home:hover {
     border: dotted 2px;
