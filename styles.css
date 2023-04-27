@@ -66,8 +66,15 @@ footer {
 .footer__bookmark {
     background-color: #8fcaca;
     border: none;
-    color: black;
+    color: black;    
 }
+
+.footer__newcard {
+  background-color: #8fcaca;
+  border: none;
+  color: black;
+}
+
 .footer__profile {
     background-color: #8fcaca;
     border: none;
@@ -111,6 +118,10 @@ padding-left: 30px;
 .footer__profile:hover {
     border: dotted 2px;
 }
+.footer__newcard:hover {
+  border: dotted 2px;
+}
+
 a.active {
     border: dotted 2px;
 }
