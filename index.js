@@ -19,7 +19,6 @@ function show_hide(element) {
 
    if(displaySetting=="inline-block"){
        myAnswer.style.display = 'none';
-
        quizButton.innerHTML = 'Show Answer';
    }
    else
