@@ -1,3 +1,4 @@
+const form = document.querySelector('[data-js="form"');
 const cardContainer = document.querySelector('[data-js="card-container"]');
 
 form.addEventListener("submit", (event) => {
@@ -11,5 +12,6 @@ form.addEventListener("submit", (event) => {
       <h2 class="card__title">New Card</h2>
       <p>${yourQuestionName}</p>
     `;
+    form.append()
     cardContainer.append(yourQuestion);
 });
