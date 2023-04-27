@@ -27,3 +27,4 @@ function show_hide(element) {
        quizButton.innerHTML = 'Hide Answer';
    }
 }
+

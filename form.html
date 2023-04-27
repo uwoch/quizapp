@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Bookmarks</title>
+    <title>New Card</title>
   </head>
   <body>
     <header>
       <h1>Quiz App</h1>
     </header>
     <main>
-    <form class="article">
+    <form class="newcard">
     <legend>Your question:</legend>
     <textarea></textarea>
     <br>
@@ -24,6 +24,7 @@
     <br>
     <button class="button-submit" type="submit">Submit</button>
     </form>
+    <ul data-js="card-container"></ul>
     </main>
     <footer>
     <nav class="footer">
@@ -42,5 +43,7 @@
           </svg></a>
         </nav>
     </footer>
+
 </body>
+<script src="form.js"></script>
 </html>
